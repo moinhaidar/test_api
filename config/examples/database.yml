@@ -1,0 +1,22 @@
+defaults: &defaults
+  adapter: mysql2
+  host: localhost
+  username: username
+  password: password
+  encoding: utf8mb4
+  collation: utf8mb4_bin
+
+development:
+  <<: *defaults
+  database: test_api_dev
+
+test: &test
+  <<: *defaults
+  database: test_api_test
+
+production:
+  adapter: mysql2
+  host: localhost
+  username: username
+  password: password
+  database: test_api_prod

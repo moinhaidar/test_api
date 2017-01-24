@@ -1,0 +1,24 @@
+h1. Test API
+
+Test API
+
+h2. Server Application
+
+This application requires:
+
+* Ruby version 2.3.3
+* Rails version 4.2.7.1
+
+Learn more about "Installing Rails":http://railsapps.github.com/installing-rails.html.
+
+h2. Database
+
+MySQL
+
+h2. Getting Started
+
+* Clone : git clone git@github.com:moinhaidar/test_api.git
+* cd test_api
+* Set database.yml config/examples
+* bundle
+* rake db:setup
